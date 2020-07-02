@@ -1,5 +1,4 @@
 /* MEDIA QUERIES FOR 700PX AND ABOVE */
-@media all and (min-width:576px) {}
 
 @media all and (min-width:768px) {
   header {
@@ -35,6 +34,22 @@
     align-self: flex-end;
     margin-bottom: 5rem;
   }
+
+  .header-p {
+    text-align: left;
+  }
+
+  .btn-header {
+    margin: auto;
+  }
+
+  .brandimg {
+    width: auto;
+  }
+
+  .brand-images {
+    margin-top: auto;
+  }
 }
 
 @media all and (min-width:992px) {
@@ -55,7 +70,17 @@
   }
 }
 
-@media all and (min-width:1200px) {}
+@media all and (min-width:1200px) {
+  .brand-images {
+    margin-top: 13%;
+  }
+}
+
+@media all and (min-width:1440px) {
+  .brand-images {
+    margin-top: auto;
+  }
+}
 
 @media all and (min-width:2560px) {
   header {

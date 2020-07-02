@@ -39,6 +39,7 @@ header {
   background: #C85520;
   color: #fff;
   border-radius: 17px;
+  margin-left: 25%;
 }
 
 .home-hero {
@@ -63,4 +64,18 @@ header {
   position: absolute;
   top: 47%;
   left: 7%;
+}
+
+.header-p {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #222D39;
+}
+
+.brandimg {
+  width: 11%;
+}
+
+.brand-images {
+  margin-top: 27%;
 }
