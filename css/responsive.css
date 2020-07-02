@@ -1,0 +1,66 @@
+/* MEDIA QUERIES FOR 700PX AND ABOVE */
+@media all and (min-width:576px) {}
+
+@media all and (min-width:768px) {
+  header {
+    background: url(../img/bg-img-1.svg) 236px -2px, url(../img/bg-2.svg) 217px -9px, url(../img/bg-img3.svg) 203px -12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header-img {
+    width: 80%;
+  }
+
+  .img-header {
+    order: 2;
+  }
+
+  .food-dis {
+    width: 30%;
+    margin-left: 0.25rem;
+  }
+
+  .discount-wrap {
+    top: 15%;
+    left: 37%;
+  }
+
+  .food-header {
+    left: 74%;
+    top: 58%;
+  }
+
+  .header-text {
+    align-self: flex-end;
+    margin-bottom: 5rem;
+  }
+}
+
+@media all and (min-width:992px) {
+  header {
+    background: url(../img/bg-img-1.svg) 651px -19px, url(../img/bg-2.svg) 624px -24px, url(../img/bg-img3.svg) 597px -28px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+  .food-header {
+    left: 71%;
+  }
+
+  .discount-wrap {
+    left: 41%;
+  }
+}
+
+@media all and (min-width:1200px) {}
+
+@media all and (min-width:2560px) {
+  header {
+    background: url(../img/bg-img-1.svg) 1109px -2px, url(../img/bg-2.svg) 1053px -9px, url(../img/bg-img3.svg) 1004px -12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

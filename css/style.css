@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E9CC41;
+}
+
+.btn-nav {
+  border: 1px solid #D60665;
+  border-radius: 17px;
+  padding: 0 2rem;
+  color: #D60665;
+}
+
+.nav-link,
+.sign-link {
+  font-size: 1.1rem;
+}
+
+header {
+  background: url(../img/bg-img-1.svg) 171px -2px, url(../img/bg-2.svg) 154px -9px, url(../img/bg-img3.svg) 138px -12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header-img {
+  width: 60%;
+}
+
+.img-header {
+  text-align: center;
+}
+
+.btn-header {
+  background: #C85520;
+  color: #fff;
+  border-radius: 17px;
+}
+
+.home-hero {
+  position: relative;
+}
+
+.discount-wrap {
+  position: absolute;
+  top: 11%;
+  left: 3%;
+}
+
+.discount-img {
+  width: 50%;
+}
+
+.food-dis {
+  width: 15%;
+}
+
+.food-header {
+  position: absolute;
+  top: 47%;
+  left: 7%;
+}
